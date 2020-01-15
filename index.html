@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GST Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="card">
+        <div class="title">Actual Price</div>
+        <input type="number" id="actual_price" />
+      </div>
+      <div class="card">
+        <div class="title">Final Price</div>
+        <input type="number" id="final_price" />
+      </div>
+      <div class="card">
+        <div class="title">GST</div>
+        <input type="number" id="gst_value" disabled />
+      </div>
+      <div class="card">
+        <div class="title">CGST</div>
+        <input type="number" id="cgst_value" disabled />
+      </div>
+      <div class="card">
+        <div class="title">SGST</div>
+        <input type="number" id="sgst_value" disabled />
+      </div>
+      <div class="card gst">
+        <button id="left"><</button>
+        <div class="group">
+          <span id="gst_percent">28</span>
+          <span>%</span>
+        </div>
+        <button id="right">></button>
+      </div>
+    </div>
+  </body>
+</html>
