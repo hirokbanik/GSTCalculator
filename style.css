@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   grid-template-columns: 1fr;
-  background: linear-gradient(45deg, #131416, #222035);
+  background: linear-gradient(45deg, #1b1f27, #222035);
 }
 
 .wrapper {
@@ -35,11 +35,11 @@ body {
 }
 
 .card {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 0.5rem;
   position: relative;
   box-shadow: 0 1rem 2rem #171b22;
-  background: linear-gradient(45deg, #0e111a, #0e111a);
+  background: linear-gradient(45deg, #000911, #0e111a);
 }
 
 .card .title {
@@ -48,7 +48,7 @@ body {
   left: 0.5rem;
   font-weight: 900;
   font-size: 1.75rem;
-  color: #003b4dd5;
+  color: #004358c7;
 }
 
 .card input {
@@ -102,7 +102,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  color: #003b4dd5;
+  color: #004358c7;
   font-weight: bold;
 }
 
