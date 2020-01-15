@@ -13,7 +13,7 @@ const findGST = () => {
     let gst_value = (actual_value * gst) / 100;
     $("#gst_value").value = _(gst_value);
     $("#cgst_value").value = _(gst_value / 2);
-    $("#sgst_value").value = _(gst_value / 2);
+    // $("#sgst_value").value = _(gst_value / 2);
     $("#final_price").value = _(actual_value + gst_value);
   } else if (mode === 2) {
     let actual_price = (final_value * 100) / (100 + gst);
@@ -21,7 +21,7 @@ const findGST = () => {
     $("#actual_price").value = _(actual_price);
     $("#gst_value").value = _(gst_value);
     $("#cgst_value").value = _(gst_value / 2);
-    $("#sgst_value").value = _(gst_value / 2);
+    // $("#sgst_value").value = _(gst_value / 2);
   }
 };
 
