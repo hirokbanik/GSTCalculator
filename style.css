@@ -83,6 +83,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .gst {
+  min-height: 88px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   overflow: hidden;
